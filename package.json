@@ -1,6 +1,6 @@
 {
   "name": "npm-max-dir-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a package that accepts two arguments - directory and regular expression. In the regular expression must have a backreference, which is a number. The package performs iteration of all files in a directory and returns a number that is one greater than the maximum.",
   "main": "index.js",
   "scripts": {

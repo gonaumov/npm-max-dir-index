@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-exports.max-dir-index = function(dirPath, regex) {
+exports.maxDirIndex = function (dirPath, regex) {
     var files = fs.readdirSync(dirPath), index = 0;
 
     files.forEach(function (currentFile) {
@@ -9,6 +9,6 @@ exports.max-dir-index = function(dirPath, regex) {
             index = ++currentIndex;
         }
     });
-    
+
     return index;
-}
+};

@@ -1,0 +1,25 @@
+{
+  "name": "npm-max-dir-index",
+  "version": "1.0.0",
+  "description": "This is a package that accepts two arguments - directory and regular expression. In the regular expression must have a backreference, which is a number. The package performs iteration of all files in a directory and returns a number that is one greater than the maximum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonaumov/npm-max-dir-index.git"
+  },
+  "keywords": [
+    "directory"
+  ],
+  "author": "Georgi Naumov <gonaumov@gmail.com> (http://georgi-naumov.blogspot.bg/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonaumov/npm-max-dir-index/issues"
+  },
+  "homepage": "https://github.com/gonaumov/npm-max-dir-index#readme",
+  "dependencies": {
+    "sf": "^0.1.8"
+  }
+}

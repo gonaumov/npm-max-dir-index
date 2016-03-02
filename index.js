@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-exports.maxDirIndex = function (dirPath, regex) {
-    var files = fs.readdirSync(dirPath), index = 0;
+module.exports = function (dirPath, regex) {
+    var files = fs.readdirSync(dirPath), index = 0, re = new RegExp(regex, "i");
 
     files.forEach(function (currentFile) {
-        var currentIndex = ((new RegExp(regex)).exec(currentFile) || [, false])[1];
+        var currentIndex = (re.exec(currentFile) || [, false])[1];
         if (currentIndex && parseInt(currentIndex) >= index) {
             index = ++currentIndex;
         }

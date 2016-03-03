@@ -1,7 +1,8 @@
 {
   "name": "npm-max-dir-index",
   "version": "1.0.3",
-  "description": "This package is created with idea to solve the problem for finding maximum number from files from directory by regular expression",
+  "description": "This package is created for separation of the logic for finding a highest number in file's name 
+in a directory by regular expression.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
